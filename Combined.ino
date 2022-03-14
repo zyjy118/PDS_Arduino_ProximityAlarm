@@ -2,8 +2,8 @@
 #include <Arduino.h>
 #include "Firebase_Arduino_WiFiNINA.h"
 #include "arduino_secrets.h"
-#define FIREBASE_HOST "pdsassignment-ea266-default-rtdb.asia-southeast1.firebasedatabase.app"  //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
-#define FIREBASE_AUTH "4DeoDuuFXyDvfvvwS9Sq5jRidtq5VoX5tHmXS8Yq"
+#define FIREBASE_HOST "insert URL here"  //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define FIREBASE_AUTH "insert database secret here"
 
 char WIFI_SSID[] = SECRET_SSID;        
 char WIFI_PASSWORD[] = SECRET_PASS;   
